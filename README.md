@@ -1,6 +1,7 @@
-# Full Stack Notion Clone: Next.js 13 README
+# Insightful Project README
 
-Welcome to the Full Stack Notion Clone project. This README serves as a comprehensive guide for developers and contributors to understand and contribute to the project's success.
+
+Insightful is a powerful and versatile full-stack application designed to provide users with a comprehensive workspace for organizing, managing, and collaborating on various projects and ideas. This project aims to replicate the functionalities of Notion, offering real-time database capabilities, a user-friendly interface, and robust collaboration features for enhanced productivity and seamless workflow management.
 
 ## Table of Contents
 
@@ -16,7 +17,7 @@ Welcome to the Full Stack Notion Clone project. This README serves as a comprehe
 
 ## Project Overview
 
-The Full Stack Notion Clone project aims to replicate the key functionalities of Notion, an all-in-one workspace for notes, tasks, wikis, and databases. This project will provide users with a comprehensive and flexible platform for organizing their ideas, collaborating with teams, and managing various projects. With real-time database capabilities and a user-friendly interface, this Notion Clone seeks to enhance productivity and streamline workflow management.
+Insightful is a powerful and versatile full-stack application designed to provide users with a comprehensive workspace for organizing, managing, and collaborating on various projects and ideas. This project aims to replicate the functionalities of Notion, offering real-time database capabilities, a user-friendly interface, and robust collaboration features for enhanced productivity and seamless workflow management.
 
 ## Key Features
 
