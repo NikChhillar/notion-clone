@@ -142,7 +142,7 @@ const Navigation = () => {
         <div>
           {/* User Item */}
           <UserItem />
-          <Item label="Search" icon={Search} onClick={() => {}} />
+          <Item label="Search" isSearch icon={Search} onClick={() => {}} />
           <Item label="Settings" icon={Settings} onClick={() => {}} />
           <Item onClick={handleCreate} label="New page" icon={PlusCircle} />
         </div>
