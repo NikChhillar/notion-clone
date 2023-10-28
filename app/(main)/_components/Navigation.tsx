@@ -149,8 +149,8 @@ const Navigation = () => {
         <div>
           {/* User Item */}
           <UserItem />
-          <Item label="Search" isSearch icon={Search} onClick={() => {}} />
-          <Item label="Settings" icon={Settings} onClick={() => {}} />
+          <Item label="Search" isSearch icon={Search} onClick={() => { }} />
+          <Item label="Settings" icon={Settings} onClick={() => { }} />
           <Item onClick={handleCreate} label="New page" icon={PlusCircle} />
         </div>
         <div className="mt-4">
@@ -158,7 +158,7 @@ const Navigation = () => {
           <Item onClick={handleCreate} label="Add a page" icon={PlusCircle} />
           <Popover>
             <PopoverTrigger className="w-full mt-4">
-              <Item label="Trash" icon={Trash} />
+              <Item label="Trash bin" icon={Trash} />
             </PopoverTrigger>
             <PopoverContent
               className="p-0 w-72"
