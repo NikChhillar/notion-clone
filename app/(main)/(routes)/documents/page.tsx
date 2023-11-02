@@ -16,7 +16,9 @@ const DocumentsPage = () => {
   const create = useMutation(api.documents.create);
 
   const onCreate = () => {
-    const promise = create({ title: "Untitled" })
+    const promise = create({ title: "Untitled" }).then((documentId) =>
+      router.push(`/documents/${documentId}`)
+    );
 
     toast.promise(promise, {
       loading: "Creating a new note...",
@@ -50,6 +52,6 @@ const DocumentsPage = () => {
       </Button>
     </div>
   );
-}; 
+};
 
 export default DocumentsPage;
