@@ -20,6 +20,7 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
   const [value, setValue] = useState(initialData.title);
 
   const update = useMutation(api.documents.update);
+  const removeIcon = useMutation(api.documents.removeIcon);
 
   //
   const enableInput = () => {
@@ -61,7 +62,11 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
   };
 
   //
-  const onRemoveIcon = () => {};
+  const onRemoveIcon = () => {
+    removeIcon({
+      id: initialData._id,
+    });
+  };
 
   return (
     <div className="pl-[54px] group relative">
