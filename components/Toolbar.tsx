@@ -78,7 +78,7 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
       {!!initialData.icon && !preview && (
         <div className="flex items-center gap-x-2 group/icon pt-6">
           <IconPicker onChange={onIconSelect}>
-            <p className="text-6xl hover:opacity-75 transition">
+            <p className="text-4xl hover:opacity-75 transition">
               {initialData.icon}
             </p>
           </IconPicker>
@@ -94,7 +94,7 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
       )}
 
       {!!initialData.icon && preview && (
-        <p className="text-6xl pt-6">{initialData.icon}</p>
+        <p className="text-4xl pt-6">{initialData.icon}</p>
       )}
 
       <div className="opacity-0 group-hover:opacity-100 flex items-center gap-x-1 py-4">
@@ -130,12 +130,12 @@ const Toolbar = ({ initialData, preview }: ToolbarProps) => {
           onKeyDown={onKeyDown}
           value={value}
           onChange={(e) => onInput(e.target.value)}
-          className="text-5xl bg-transparent font-bold break-words outline-none text-[#3F3F3F] dark:text-[#CFCFCF] resize-none"
+          className="text-4xl bg-transparent font-bold break-words outline-none text-[#3F3F3F] dark:text-[#CFCFCF] resize-none"
         />
       ) : (
         <div
           onClick={enableInput}
-          className="pb-[11.5px] text-5xl font-bold break-words outline-none text-[#3F3F3F] dark:text-[#CFCFCF]"
+          className="pb-[11.5px] text-4xl font-bold break-words outline-none text-[#3F3F3F] dark:text-[#CFCFCF]"
         >
           {initialData.title}
         </div>

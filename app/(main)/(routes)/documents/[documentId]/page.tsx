@@ -6,6 +6,7 @@ import { Id } from "@/convex/_generated/dataModel";
 import Toolbar from "@/components/Toolbar";
 import CoverImageComponent from "@/components/CoverImageComponent";
 import { Skeleton } from "@/components/ui/skeleton";
+import Editor from "@/components/Editor";
 
 interface DocumentIdPageProps {
   params: {
@@ -43,6 +44,10 @@ const DocumentIdPage = ({ params }: DocumentIdPageProps) => {
       <CoverImageComponent url={document.coverImage} />
       <div className="md:max-w-3xl lg:max-w-4xl mx-auto">
         <Toolbar initialData={document} />
+        <Editor
+          onChange={() => { }}
+          initialContent={document.content}
+        />
       </div>
     </div>
   );
