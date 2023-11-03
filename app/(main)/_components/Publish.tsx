@@ -82,7 +82,7 @@ const Publish = ({ initialData }: PublishProps) => {
             <div className="flex items-center gap-x-2">
               <Globe className="text-sky-500 animate-pulse h-4 w-4" />
               <p className="text-xs font-medium text-sky-500">
-                This note is live on web.
+                This note is live on web...
               </p>
             </div>
             <div className="flex items-center">
@@ -115,9 +115,9 @@ const Publish = ({ initialData }: PublishProps) => {
         ) : (
           <div className="flex flex-col items-center justify-center">
             <Globe className="h-8 w-8 text-muted-foreground mb-2" />
-            <p className="text-sm font-medium mb-2">Publish this note</p>
+            <p className="text-sm font-medium mb-2">Publish this note..</p>
             <span className="text-xs text-muted-foreground mb-4">
-              Share your work with others.
+              Share your work with others...
             </span>
             <Button
               disabled={isSubmitting}
